@@ -2,29 +2,24 @@
 
 This project focuses on time series analysis and forecasting of monthly international airline passengers using R. It utilizes historical data to identify trends and seasonal patterns, applying statistical and forecasting models to predict future passenger numbers.
 
-**📈 Methodology**
---
-Data Preparation: Loading the Excel dataset into R and converting it into a time series object (ts).
+## 📈 Methodology
 
-Exploratory Data Analysis (EDA): Visualizing the data to check for underlying trends, seasonality, and variance.
+- **Data Preparation:** Loading the Excel dataset into R and converting it into a time series object (`ts`).
+- **Exploratory Data Analysis (EDA):** Visualizing the data to check for underlying trends, seasonality, and variance.
+- **Modeling:** Applying appropriate time series forecasting models (such as ARIMA or Exponential Smoothing).
+- **Evaluation & Forecasting:** Generating predictions and visualizing future passenger trends.
 
-Modeling: Applying appropriate time series forecasting models (such as ARIMA or Exponential Smoothing).
+## 💡 Key Findings
 
-Evaluation & Forecasting: Generating predictions and visualizing future passenger trends.
---
+- **Upward Trend:** Historical data between 1949 and 1955 demonstrates a consistent long-term upward trend in international airline passenger volume.
+- **Strong Seasonality:** Passenger numbers exhibit a clear annual repeating seasonal pattern, with peak travel volume consistently occurring during summer months.
+- **Increasing Variance:** The amplitude of seasonal fluctuations increases over time alongside the rising trend, indicating multiplicative characteristics in the underlying series.
+
 ## 🖼️ Forecasting Results & Visualization
 
 Here is the visual output and prediction plot generated from the analysis:
 
 ![Forecast Output](Screenshot%202026-11-02%20232115.png)
-
-**💡 Key Findings**
---
-Upward Trend: Historical data between 1949 and 1955 demonstrates a consistent long-term upward trend in international airline passenger volume.
-
-Strong Seasonality: Passenger numbers exhibit a clear annual repeating seasonal pattern, with peak travel volume consistently occurring during summer months.
-
-Increasing Variance: The amplitude of seasonal fluctuations increases over time alongside the rising trend, indicating multiplicative characteristics in the underlying series.
 
 ## 📂 Project Structure
 
@@ -34,7 +29,7 @@ Increasing Variance: The amplitude of seasonal fluctuations increases over time 
 
 ## 🛠️ Prerequisites & Libraries
 
-Make sure you have [R](https://www.r-project.org/) and [RStudio](https://posit.co/downloads/) installed. The following R packages are required to run the analysis:
+Make sure you have [R](https://www.r-project.org/) and [RStudio](https://posit.co/) installed. The following R packages are required to run the analysis:
 
 ```r
 install.packages("readxl")
