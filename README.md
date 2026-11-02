@@ -11,6 +11,12 @@ Exploratory Data Analysis (EDA): Visualizing the data to check for underlying tr
 Modeling: Applying appropriate time series forecasting models (such as ARIMA or Exponential Smoothing).
 
 Evaluation & Forecasting: Generating predictions and visualizing future passenger trends.
+--
+## 🖼️ Forecasting Results & Visualization
+
+Here is the visual output and prediction plot generated from the analysis:
+
+![Forecast Output](Screenshot%202026-11-02%20232115.png)
 
 **💡 Key Findings**
 --
